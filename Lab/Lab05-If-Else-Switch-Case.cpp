@@ -47,7 +47,7 @@
 int main()
 {
     int score = 0;
-    printf("enter your score :");
+    printf("enter your score :\n");
     scanf("%d", &score);
     if (score >= 80)
     {
