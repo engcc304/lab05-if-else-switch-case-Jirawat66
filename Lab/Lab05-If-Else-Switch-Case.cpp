@@ -53,33 +53,33 @@ int main()
     {
         printf("A !");
     }
-    else if (score >= 75 && score <= 79)
+    else if (score <= 79 && score >= 75)
     {
         printf("B+ !");
     }
-    else if (score >= 70 && score <= 74)
+    else if (score <= 74 && score >= 70)
     {
         printf("B !");
     }
-    else if (score >= 65 && score <= 69)
+    else if (score <= 69 && score >= 65)
     {
         printf("c+ !");
     }
-    else if (score >= 60 && score <= 64)
+    else if (score <= 64 && score >= 60)
     {
         printf("c !");
     }
-    else if (score >= 55 && score <= 59)
+    else if (score <= 59 && score >= 55)
     {
         printf("D+ !");
     }
-    else if (score >= 50 && score <= 54)
+    else if (score <= 54 && score >= 50)
     {
         printf("D !");
     }
     else if ( !score )
     {
-        printf("please enter number only.");
+        printf("please enter number only. ");
     }
     else
     {
