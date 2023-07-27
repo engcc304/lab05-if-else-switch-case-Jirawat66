@@ -63,11 +63,11 @@ int main()
     }
     else if (score <= 69 && score >= 65)
     {
-        printf("c+ !");
+        printf("C+ !");
     }
     else if (score <= 64 && score >= 60)
     {
-        printf("c !");
+        printf("C !");
     }
     else if (score <= 59 && score >= 55)
     {
@@ -77,7 +77,7 @@ int main()
     {
         printf("D !");
     }
-    else if ( !score)
+    else if ( ! score)
     {
         printf("please enter number only. ");
     }
