@@ -47,7 +47,7 @@
 int main()
 {
     int score = 0;
-    printf("enter your score :\n");
+    printf("enter score :\n");
     scanf("%d", &score);
     if (score >= 80)
     {
@@ -77,12 +77,11 @@ int main()
     {
         printf("D !");
     }
-    else if ( !score )
+    else if ( !score)
     {
         printf("please enter number only. ");
     }
-    else
-    {
+    else{
         printf("F !");
     }
 
